@@ -27,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void cargaLista() {
-        lista.add(new ModeloItem())
+        lista.add(new ModeloItem(R.drawable.foto,"Loquita","Se cree Ricardo Milos el Cabron"));
+        lista.add(new ModeloItem(R.drawable.foto,"Loquita","Se cree Ricardo Milos el Cabron"));
+        lista.add(new ModeloItem(R.drawable.foto,"Loquita","Se cree Ricardo Milos el Cabron"));
+        lista.add(new ModeloItem(R.drawable.foto,"Loquita","Se cree Ricardo Milos el Cabron"));
+        lista.add(new ModeloItem(R.drawable.foto,"Loquita","Se cree Ricardo Milos el Cabron"));
+        lista.add(new ModeloItem(R.drawable.foto,"Loquita","Se cree Ricardo Milos el Cabron"));
     }
 }

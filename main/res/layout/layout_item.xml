@@ -30,7 +30,7 @@
             android:text="Esta es una descripcion del item que sera un resumen"
             android:textSize="15dp"
             android:paddingLeft="10dp"
-
+            android:layout_gravity="center"
             />
     </LinearLayout>
 </LinearLayout>

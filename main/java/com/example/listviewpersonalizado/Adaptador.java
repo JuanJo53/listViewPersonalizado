@@ -22,7 +22,7 @@ public class Adaptador extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return lista.size();
     }
 
     @Override
@@ -48,6 +48,6 @@ public class Adaptador extends BaseAdapter {
         tvtitulo.setText(item.getTitulo());
         tvdesc.setText(item.getContenido());
 
-        return null;
+        return convertView;
     }
 }
